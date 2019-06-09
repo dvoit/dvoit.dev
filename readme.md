@@ -1,3 +1,5 @@
+Thanks for visiting. This is a repository for my own personal site, using the Laravel framework.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
