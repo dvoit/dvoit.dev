@@ -9,6 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+
         <!-- Styles -->
         <style>
             html, body {
@@ -93,7 +96,8 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                 -->
-                    <a href="https://github.com/dvoit">GitHub</a>
+                    <a href="https://github.com/dvoit">GitHub</a><i class="fab fa-github-alt"></i>
+                    <a href="https://www.linkedin.com/in/dillon-voit-a392a8175/">LinkedIn</a><i class="fab fa-linkedin-in"></i>
                 </div>
             </div>
         </div>
