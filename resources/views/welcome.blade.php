@@ -84,7 +84,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Welcome to <b>dvoit.dev</b>
                 </div>
 
                 <div class="links">
@@ -96,8 +96,8 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                 -->
-                    <a href="https://github.com/dvoit">GitHub</a><i class="fab fa-github-alt"></i>
-                    <a href="https://www.linkedin.com/in/dillon-voit-a392a8175/">LinkedIn</a><i class="fab fa-linkedin-in"></i>
+                    <a href="https://github.com/dvoit"><i class="fab fa-github-alt fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/dillon-voit-a392a8175/"><i class="fab fa-linkedin-in fa-2x"></i></a>
                 </div>
             </div>
         </div>
