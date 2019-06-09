@@ -84,7 +84,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to <b>dvoit.dev</b>
+                    Welcome to <b>dvoit.dev</b>test
                 </div>
 
                 <div class="links">
