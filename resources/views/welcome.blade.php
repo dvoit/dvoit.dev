@@ -16,11 +16,12 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: #fff;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+                text-shadow: -2px 2px 0px #00e6e6, -3px 3px 0px #01cccc, -4px 4px 0px #00bdbd, -5px 5px 0px #000000;
             }
 
             .full-height {
@@ -52,7 +53,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #000;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -84,7 +85,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to <b>dvoit.dev</b>
+                    <b>dvoit.dev</b>
                 </div>
 
                 <div class="links">
@@ -96,8 +97,8 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                 -->
-                    <a href="https://github.com/dvoit"><i class="fab fa-github-alt fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/in/dillon-voit-a392a8175/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    <a href="https://github.com/dvoit"><i class="fab fa-github-alt fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/dillon-voit-a392a8175/"><i class="fab fa-linkedin-in fa-3x"></i></a>
                 </div>
             </div>
         </div>
