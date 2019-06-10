@@ -24,6 +24,14 @@
                 text-shadow: -2px 2px 0px #00e6e6, -3px 3px 0px #01cccc, -4px 4px 0px #00bdbd, -5px 5px 0px #000000;
             }
 
+            body {
+                background-image: url('https://images.unsplash.com/photo-1517799094725-e3453440724e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
             .full-height {
                 height: 100vh;
             }
