@@ -22,6 +22,14 @@
                 height: 100vh;
                 margin: 0;
             }
+            
+            body {
+                background-image: url('unsplash_corridor.jpg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
 
             .full-height {
                 height: 100vh;
