@@ -84,7 +84,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to <b>dvoit.dev</b>asdfsdf
+                    Welcome to <b>dvoit.dev</b>asdfsdfd
                 </div>
 
                 <div class="links">
