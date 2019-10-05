@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title><span>Welcome to DVOIT.DEV</span></title>
+        <title>Hello World :)</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
         <!-- Custom Styles -->
-        <link rel="stylesheet" href="/public/css/welcome_blade.css">
+        <link rel="stylesheet" href="welcome_blade.css">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
