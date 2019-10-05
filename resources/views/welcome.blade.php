@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
         <!-- Custom Styles -->
-        <link rel="stylesheet" href="../css/welcome_blade.css">
+        <link rel="stylesheet" href="{{HTML::style('css/welcome_blade.css')}}}">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
