@@ -1,10 +1,12 @@
 before_script:
   - echo "Before script"
-  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
-  - eval $(ssh-agent -s)
   - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-  - echo "$SSH_PRIVATE_KEY" | ssh-add - > ~/.ssh/id_rsa
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+  - chmod 700 ~/.ssh/id_rsa
+  - eval "$(ssh-agent -s)"
+  - ssh-add ~/.ssh/id_rsa
+  - ssh-keyscan -H 'dvoit.dev' >> ~/.ssh/known_hosts
+  - npm install
   - cd /var/www/dvoit.dev #your project path
 building:
   stage: build
