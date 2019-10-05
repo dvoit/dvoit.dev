@@ -107,6 +107,7 @@
                     -->
                     <a href="https://github.com/dvoit"><i class="fab fa-github-alt fa-3x"></i></a>
                     <a href="https://www.linkedin.com/in/dillon-voit-a392a8175/"><i class="fab fa-linkedin-in fa-3x"></i></a>
+                    <a href="mailto:dillon.voit@gmail.com"><i class="far fa-envelope fa-3x"></i></a>
                 </div>
             </div>
         </div>
