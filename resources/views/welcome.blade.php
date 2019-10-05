@@ -37,14 +37,13 @@
                 </div>
 
                 <div class="links">
-                    <!--
-                       <a href="https://laravel.com/docs">Docs</a>
-                       <a href="https://laracasts.com">Laracasts</a>
-                        <a href="https://laravel-news.com">News</a>
-                          <a href="https://blog.laravel.com">Blog</a>
-                        <a href="https://nova.laravel.com">Nova</a>
-                        <a href="https://forge.laravel.com">Forge</a>
-                    -->
+                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://laravel-news.com">News</a>
+                    <a href="https://blog.laravel.com">Blog</a>
+                    <a href="https://nova.laravel.com">Nova</a>
+                    <a href="https://forge.laravel.com">Forge</a>
+                    <br><br>
                     <a href="https://github.com/dvoit"><i class="fab fa-github-alt fa-3x"></i></a>
                     <a href="https://www.linkedin.com/in/dillon-voit-a392a8175/"><i class="fab fa-linkedin-in fa-3x"></i></a>
                     <a href="mailto:dillon.voit@gmail.com"><i class="far fa-envelope fa-3x"></i></a>
