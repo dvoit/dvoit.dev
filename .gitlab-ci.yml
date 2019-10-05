@@ -2,9 +2,12 @@ before_script:
   - echo "Before script"
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
   - eval $(ssh-agent -s)
-  - mkdir -p ~/.ssh
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   - chmod 700 ~/.ssh
-  - echo "$SSH_PRIVATE_KEY" | ssh-add - > ~/.ssh/id_rsa
+  - ssh-keyscan dvoit.dev >> ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
+  - git config --global user.email "dillon.voit@gmail.com"
+  - git config --global user.name "Dillon Voit"
   - cd /var/www/dvoit.dev #your project path
 building:
   stage: build
