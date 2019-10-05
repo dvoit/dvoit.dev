@@ -14,10 +14,10 @@ building:
     - php artisan config:clear
     - php artisan storage:link
     #- sudo chown -R deployer:www-data /var/www/dvoit.dev/
-    - find /var/www/dvoit.dev -type f -exec chmod 664 {} \;
-    - find /var/www/dvoit.dev -type d -exec chmod 775 {} \;
-    - chgrp -R www-data storage bootstrap/cache
-    - chmod -R ug+rwx storage bootstrap/cache
+    #- find /var/www/dvoit.dev -type f -exec chmod 664 {} \;
+    #- find /var/www/dvoit.dev -type d -exec chmod 775 {} \;
+    #- chgrp -R www-data storage bootstrap/cache
+    #- chmod -R ug+rwx storage bootstrap/cache
 testing:
   stage: test
   script:
