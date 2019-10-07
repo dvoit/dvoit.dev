@@ -46,6 +46,17 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
+
+        //ADDING CUSTOM 404 LOGIC TO CUSTOM 404 TEMPLATE
+        //https://stackoverflow.com/questions/26394017/laravel-5-custom-404
+        if ($this->isHttpException($exception)) {
+            $statusCode = $exception->getStatusCode();
+            switch ($statusCode) {
+                case '404':
+                    return response()->view('errors/404');
+            }
+        }
+
         return parent::render($request, $exception);
     }
 }

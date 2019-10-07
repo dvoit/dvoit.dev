@@ -10,8 +10,8 @@ building:
     - cp .env.example .env
     - php artisan key:generate
     #- php artisan migrate --seed
-    - php artisan cache:clear
-    - php artisan config:clear
+    #- php artisan cache:clear
+    #- php artisan config:clear
     - php artisan storage:link
     #- sudo chown -R deployer:www-data /var/www/dvoit.dev/
     #- find /var/www/dvoit.dev -type f -exec chmod 664 {} \;

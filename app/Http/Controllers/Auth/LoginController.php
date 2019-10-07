@@ -36,4 +36,13 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    /**
+     * Show welcome page, not wanting login right now.
+     *
+     */
+    public function redirectToWelcomePage() {
+        return redirect('');
+    }
+
 }
