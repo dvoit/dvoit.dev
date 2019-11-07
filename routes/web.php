@@ -63,13 +63,17 @@ Route::get('/', function () {
      *   </li>
      * endguest
      */
-
     return view('welcome');
+});
+
+Route::get('/about', function () {
+   return view('about');
 });
 
 Auth::routes([
     /** I'm removing registration for now. */
-    'register' => false
+    'register' => false,
+    'about' => true
 ]);
 
 //Don't need a home page right now, show 404 for now.

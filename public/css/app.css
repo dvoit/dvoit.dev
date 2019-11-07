@@ -4350,7 +4350,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
 }
 
 .navbar > .container,
@@ -4717,12 +4717,12 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: rgba(148, 81, 255, 1);
+  border-color: rgba(148, 81, 255, 1);
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(148, 81, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-dark .navbar-text {
@@ -6798,6 +6798,15 @@ button.bg-light:focus {
   background-color: #343a40 !important;
 }
 
+.bg-dark-grey {
+  background-color: #60606070
+}
+
+.bg-dark-grey-and-purple-gradient {
+    background: rgb(96,96,96);
+    background: radial-gradient(circle, rgba(96,96,96,1) 90%, rgba(148,81,255,1) 100%);
+}
+
 a.bg-dark:hover,
 a.bg-dark:focus,
 button.bg-dark:hover,
@@ -8048,7 +8057,11 @@ button.bg-dark:focus {
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 1) !important;
+}
+
+.shadow-lg-purple {
+  box-shadow: 0 0rem 1rem rgba(148, 81, 255, 1) !important;
 }
 
 .shadow-none {
