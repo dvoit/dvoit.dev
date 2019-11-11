@@ -17,13 +17,11 @@
     <link href="{{ asset('css/welcome_blade.css') }}" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark shadow-lg-purple bg-dark-grey">
-    <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark shadow-lg-purple">
+    <div class="container-fluid">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <!-- { { config('app.name', 'Laravel') } } -->
             <img src="{{ asset('images/transparent_dvoit_brand_logo.ico') }}" alt="">
         </a>
-        <span id="dvoitBrandText">DVOIT.DEV</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -48,18 +46,21 @@
 </nav>
 
 <div id="brandDiv" class="flex-center position-ref">
+    <div class="p p-1"></div>
+    <div class="p p-2"></div>
+    <div class="p p-3"></div>
     <div class="content">
         <div class="title">
             <b>dvoit . dev</b>
         </div>
-        <div class="links-laravel">
-            <a class="links" style="font-size: 13px" href="https://github.com/dvoit"><i
-                    class="fab fa-github-alt fa-3x"></i></a>
-            <a class="links" style="font-size: 13px" href="https://www.linkedin.com/in/dillon-voit-a392a8175/"><i
-                    class="fab fa-linkedin-in fa-3x"></i></a>
-            <a class="links" style="font-size: 13px" href="mailto:dillon.voit@gmail.com"><i
-                    class="far fa-envelope fa-3x"></i></a>
-        </div>
+    </div>
+    <div class="links-laravel">
+        <a class="links" style="font-size: 13px" href="https://github.com/dvoit"><i
+                class="fab fa-github-alt fa-3x"></i></a>
+        <a class="links" style="font-size: 13px" href="https://www.linkedin.com/in/dillon-voit-a392a8175/"><i
+                class="fab fa-linkedin-in fa-3x"></i></a>
+        <a class="links" style="font-size: 13px" href="mailto:dillon.voit@gmail.com"><i
+                class="far fa-envelope fa-3x"></i></a>
     </div>
 </div>
 </body>
